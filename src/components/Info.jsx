@@ -12,11 +12,11 @@ export default function Info() {
       <p className="info--web">laurasmith.website</p>
       <div className="info--contact">
         <button className="btn email">
-          <img src={mailSVG} alt="" />
+          <img src={mailSVG} alt="An email logo." />
           <span>Email</span>
         </button>
         <button className="btn linkedin">
-          <img src={linkedinSVG} alt="" />
+          <img src={linkedinSVG} alt="LinkedIn logo." />
           <span>LinkedIn</span>
         </button>
       </div>
