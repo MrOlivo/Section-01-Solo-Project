@@ -14,7 +14,7 @@ body {
 }
 
 .App {
-  margin: 2rem auto;
+  margin: 2em auto;
   max-width: 317px;
   background-color: var(--bg-color);
   border-radius: 10px 10px;
@@ -41,7 +41,7 @@ body {
   margin: 0;
   font-size: 10.24px;
   padding-top: 9px;
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
 }
 
 .info--contact {
@@ -65,7 +65,7 @@ body {
 }
 
 .btn > img {
-  margin-right: 0.5rem;
+  margin-right: 0.5em;
 }
 
 .email,
@@ -88,7 +88,7 @@ body {
 
 /* Interests component */
 .content--container {
-  margin: 0 2rem;
+  margin: 0 2em;
   color: var(--text-color);
 }
 
@@ -111,17 +111,18 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 64px;
-  padding: 0 2rem;
+  padding: 0 2em;
+  margin-top: 1.5em;
   background: #161619;
   border-radius: 0px 0px 10px 10px;
 }
 
 .footer--container > div {
-  width: 25px;
-  height: 25px;
-  background-color: var(--social-color);
-  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: var(--social-color);
 }
