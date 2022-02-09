@@ -1,5 +1,13 @@
 import React from "react";
 
 export default function Interests() {
-  return <div>Interests</div>;
+  return (
+    <div className="content--container">
+      <h4 className="content--head">Interests</h4>
+      <p>
+        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+      </p>
+    </div>
+  );
 }
