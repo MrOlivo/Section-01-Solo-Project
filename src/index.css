@@ -32,14 +32,14 @@ body {
 
 .info--position {
   color: var(--pos-color);
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 8px 0;
 }
 
 .info--web {
   display: block;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: 1em;
 }
 
@@ -70,6 +70,7 @@ body {
 .email,
 .linkedin {
   font-weight: 500;
+  font-size: 14px;
 }
 
 .email {
@@ -94,7 +95,7 @@ body {
 .content--container > p {
   font-weight: 400;
   color: var(--p-color);
-  font-size: 10.24px;
+  font-size: 14px;
   line-height: 150%;
 }
 
