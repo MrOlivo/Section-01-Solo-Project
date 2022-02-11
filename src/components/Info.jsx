@@ -11,14 +11,24 @@ export default function Info() {
       <p className="info--position">Frontend Developer</p>
       <p className="info--web">laurasmith.website</p>
       <div className="info--contact">
-        <button className="btn email">
+        <a
+          href="https://mail.com"
+          target="_blank"
+          className="btn email"
+          rel="noreferrer"
+        >
           <img src={mailSVG} alt="An email logo." />
           <span>Email</span>
-        </button>
-        <button className="btn linkedin">
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          className="btn linkedin"
+          rel="noreferrer"
+        >
           <img src={linkedinSVG} alt="LinkedIn logo." />
           <span>LinkedIn</span>
-        </button>
+        </a>
       </div>
     </div>
   );
