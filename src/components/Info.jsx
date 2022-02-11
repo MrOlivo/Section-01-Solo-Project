@@ -17,7 +17,7 @@ export default function Info() {
           className="btn email"
           rel="noreferrer"
         >
-          <img src={mailSVG} alt="An email logo." />
+          <img src={mailSVG} alt="An email logo." className="btn--img" />
           <span>Email</span>
         </a>
         <a
@@ -26,7 +26,7 @@ export default function Info() {
           className="btn linkedin"
           rel="noreferrer"
         >
-          <img src={linkedinSVG} alt="LinkedIn logo." />
+          <img src={linkedinSVG} alt="LinkedIn logo." className="btn--img" />
           <span>LinkedIn</span>
         </a>
       </div>

@@ -8,16 +8,16 @@ export default function Footer() {
   return (
     <div className="footer--container">
       <a href="https://www.twitter.com">
-        <img src={Twitter} alt="Twitter" />
+        <img src={Twitter} alt="Twitter" className="footer--social" />
       </a>
       <a href="https://www.facebook.com">
-        <img src={Facebook} alt="Facebook" />
+        <img src={Facebook} alt="Facebook" className="footer--social" />
       </a>
       <a href="https://www.instagram.com">
-        <img src={Instagram} alt="Instagram" />
+        <img src={Instagram} alt="Instagram" className="footer--social" />
       </a>
       <a href="https://github.com">
-        <img src={GitHub} alt="GitHub" />
+        <img src={GitHub} alt="GitHub" className="footer--social" />
       </a>
     </div>
   );

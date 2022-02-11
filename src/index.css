@@ -63,12 +63,10 @@ a {
   padding: 9px 13px 9px 11px;
   width: 115px;
   height: 34px;
-  left: 151px;
-  top: 468px;
   border: none;
 }
 
-.btn > img {
+.btn--img {
   margin-right: 0.5em;
 }
 
@@ -123,7 +121,7 @@ a {
   border-radius: 0px 0px 10px 10px;
 }
 
-.footer--container > img {
+.footer--social {
   width: 30px;
   height: 30px;
   border-radius: 5px;
