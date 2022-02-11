@@ -7,10 +7,18 @@ import Twitter from "../images/Twitter.svg";
 export default function Footer() {
   return (
     <div className="footer--container">
-      <img src={Twitter} alt="Twitter" />
-      <img src={Facebook} alt="Facebook" />
-      <img src={Instagram} alt="Instagram" />
-      <img src={GitHub} alt="GitHub" />
+      <a href="https://www.twitter.com">
+        <img src={Twitter} alt="Twitter" />
+      </a>
+      <a href="https://www.facebook.com">
+        <img src={Facebook} alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com">
+        <img src={Instagram} alt="Instagram" />
+      </a>
+      <a href="https://github.com">
+        <img src={GitHub} alt="GitHub" />
+      </a>
     </div>
   );
 }
