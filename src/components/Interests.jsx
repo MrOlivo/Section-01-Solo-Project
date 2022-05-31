@@ -5,7 +5,12 @@ export default function Interests() {
     <div className="content--container">
       <h4 className="content--head">Intereses</h4>
       <p>
-        Fanatico de la Internet. Amante de las novelas.
+        <ul>
+          <li>Entusiasta de la Internet.</li>
+          <li>Amante de las novelas.</li>
+          <li>Programador novicio.</li>
+          <li>Fanatico de Star Wars</li>
+        </ul>
       </p>
     </div>
   );
