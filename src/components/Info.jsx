@@ -6,13 +6,13 @@ import mailSVG from "../images/mail.svg";
 export default function Info() {
   return (
     <div className="info--container">
-      <img src={photo} alt="A woman smiling." />
-      <h2 className="info--name">Laura Smith</h2>
-      <p className="info--position">Frontend Developer</p>
-      <p className="info--web">laurasmith.website</p>
+      <img src={photo} alt="Un hombre apuesto." />
+      <h2 className="info--name">Edwin Olivo</h2>
+      <p className="info--position">Desarrollador</p>
+      <p className="info--web">https://www.mrolivo.github.io</p>
       <div className="info--contact">
         <a
-          href="https://mail.com"
+          href="https://edwin.olivo@outlook.com"
           target="_blank"
           className="btn email"
           rel="noreferrer"
@@ -21,7 +21,7 @@ export default function Info() {
           <span>Email</span>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://linkedin.com/in/edwin-olivo-garcia"
           target="_blank"
           className="btn linkedin"
           rel="noreferrer"

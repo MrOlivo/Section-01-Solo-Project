@@ -16,7 +16,7 @@ export default function Footer() {
       <a href="https://www.instagram.com">
         <img src={Instagram} alt="Instagram" className="footer--social" />
       </a>
-      <a href="https://github.com">
+      <a href="https://github.com/MrOlivo">
         <img src={GitHub} alt="GitHub" className="footer--social" />
       </a>
     </div>

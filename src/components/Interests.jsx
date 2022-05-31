@@ -3,10 +3,9 @@ import React from "react";
 export default function Interests() {
   return (
     <div className="content--container">
-      <h4 className="content--head">Interests</h4>
+      <h4 className="content--head">Intereses</h4>
       <p>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        Fanatico de la Internet. Amante de las novelas.
       </p>
     </div>
   );
