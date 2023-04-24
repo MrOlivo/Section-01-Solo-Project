@@ -15,9 +15,15 @@ body {
 
 .App {
   margin: 2em auto;
-  max-width: 317px;
+  width: 317px;
   background-color: var(--bg-color);
   border-radius: 10px 10px;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 400px;
+  }
 }
 
 .info--container {
@@ -26,7 +32,7 @@ body {
 }
 
 .info--photo {
-  max-width: 317px;
+  width: 100%;
   border-radius: 1rem 1rem 0 0;
   overflow: hidden;
 }
@@ -86,7 +92,7 @@ a {
 
 .email {
   background: var(--text-color);
-  color: #161619;
+  color: var(--bg-color);
   border: 1px solid #d1d5db;
   box-sizing: border-box;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
@@ -126,7 +132,7 @@ a {
   height: 64px;
   padding: 0 4em;
   margin-top: 1.5em;
-  background: #161619;
+  color: var(--bg-color);
   border-radius: 0px 0px 10px 10px;
 }
 
