@@ -13,10 +13,10 @@ export default function Info() {
       />
       <h2 className="info--name">Edwin Olivo Garcia</h2>
       <p className="info--position">Desarrollador de Software</p>
-      <p className="info--web">mrolivo.github.io</p>
+      <p className="info--web"><a href="https://github.com/MrOlivo/">mrolivo.github.io</a></p>
       <div className="info--contact">
         <a
-          href="mailto:edwin.olivo@outlook.com"
+          href="mailto:"
           target="_blank"
           className="btn email"
           rel="noreferrer"
