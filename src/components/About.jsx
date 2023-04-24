@@ -1,9 +1,7 @@
-import React from "react";
-
 export default function About() {
   return (
     <div className="content--container">
-      <h4 className="content--head">About</h4>
+      <h4 className="content--head">Acerca de mi</h4>
       <p>
         Hola, soy <strong>Edwin Olivo</strong>.
       </p>
