@@ -5,9 +5,9 @@ export default function Info() {
   return (
     <div className="info--container">
       <img
-        src="src\images\Rectangle 90.png"
+        src="https://avatars.githubusercontent.com/u/46498127?v=4"
         loading="lazy"
-        alt="imagen de perfil de un Clone Trooper estilo Lego."
+        alt="Illustration of a woman"
         className="info--photo"
       />
       <h2 className="info--name">Edwin Olivo Garcia</h2>
